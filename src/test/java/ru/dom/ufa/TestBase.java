@@ -10,16 +10,14 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import ru.dom.ufa.config.Project;
 import ru.dom.ufa.helpers.Attach;
 
-
-
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.sleep;
 
 public class TestBase {
 
     @BeforeAll
-    static void beforeAll() {;
-        Configuration.baseUrl = System.getProperty("https://www.ozon.ru/");
+    static void beforeAll() {
+        Configuration.baseUrl = System.getProperty("https://ufa.dom.ru");
         Configuration.browserSize = Project.browserSize();
         Configuration.browser = Project.browserNameChose();
         Configuration.browserVersion = Project.browserVersion();

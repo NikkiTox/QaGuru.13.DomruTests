@@ -16,11 +16,11 @@ tasks.withType(JavaCompile) {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-compileJava{
+compileJava {
     options.encoding = "UTF-8"
 }
 
-compileTestJava{
+compileTestJava {
     options.encoding = "UTF-8"
 }
 
@@ -44,7 +44,7 @@ allure {
 dependencies {
     testImplementation(
             "com.codeborne:selenide:6.2.1",
-            'org.junit.jupiter:junit-jupiter-api:5.8.2',
+            'org.junit.jupiter:junit-jupiter:5.8.2',
             'org.seleniumhq.selenium:selenium-java:3.141.59',
             'org.aeonbits.owner:owner:1.0.12',
             'org.assertj:assertj-core:3.22.0'

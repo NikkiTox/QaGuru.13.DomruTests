@@ -13,11 +13,11 @@ import ru.dom.ufa.helpers.Attach;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.sleep;
 
-public class TestBase {
+public class UITestBase {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = System.getProperty("https://ufa.dom.ru");
+        Configuration.baseUrl = "https://ufa.dom.ru";
         Configuration.browserSize = Project.browserSize();
         Configuration.browser = Project.browserNameChose();
         Configuration.browserVersion = Project.browserVersion();

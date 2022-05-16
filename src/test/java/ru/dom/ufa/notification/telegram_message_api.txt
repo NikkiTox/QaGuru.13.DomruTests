@@ -7,4 +7,4 @@ curl -X POST \
 -d '{"chat_id": "-1001592027357", "text": "V !)", "disable_notification": true}' \
 https://api.telegram.org/bot5294698330:AAFT5Ei43I_sEgblu-gAStnjSVj7HA4x3yE/sendMessage
 //Command in line
-curl -X POST     -H 'Content-Type: application/json' -d '{"chat_id": "-1001592027357", "text": "Test in line!)"}' https://api.telegram.org/bot5294698330:AAFT5Ei43I_sEgblu-gAStnjSVj7HA4x3yE/sendMessage
+curl -X POST     -H 'Content-Type: application/json' -d '{"chat_id": "-1001592027357", "text": "13 homework)"}' https://api.telegram.org/bot5294698330:AAFT5Ei43I_sEgblu-gAStnjSVj7HA4x3yE/sendMessage

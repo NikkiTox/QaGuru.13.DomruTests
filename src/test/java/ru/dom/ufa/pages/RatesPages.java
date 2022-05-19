@@ -16,8 +16,7 @@ public class RatesPages {
     private final SelenideElement
 
             ratesArchive = $(By.linkText("ТВ + Интернет")),
-            ratesTitle = $("[id='bundles_title']"),
-            emptyField = $(".sc-cecf6fda-0"),
+            ratesTitle = $("[class='sc-6dc94116-2 kFdYWj']"),
             cityButton = $(".ibkljD"),
             stateButton = $(".Col-qyrm3i-0:nth-child(1) > .sc-dd0fac8d-2:nth-child(3) > .sc-dd0fac8d-4:nth-child(2) > .sc-dd0fac8d-5"),
             cityChoose = $("*[data-test='city-item']"),
@@ -35,7 +34,6 @@ public class RatesPages {
 
     public RatesPages ratesArchives() {
         ratesArchive.click();
-        emptyField.click();
         return this;
     }
 

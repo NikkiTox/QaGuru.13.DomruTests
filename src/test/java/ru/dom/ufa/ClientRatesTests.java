@@ -1,6 +1,7 @@
 package ru.dom.ufa;
 
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,6 +11,7 @@ import static io.qameta.allure.Allure.step;
 
 public class ClientRatesTests extends TestBase {
     RatesPages RatesPages = new RatesPages();
+    @Disabled
     @Description("Проверка доступных пакетов")
     @DisplayName("Assert bundle rates")
     @Test
@@ -25,6 +27,7 @@ public class ClientRatesTests extends TestBase {
             RatesPages.assertTitle();
         });
     }
+    @Disabled
     @Description("Проверка адреса подключения")
     @DisplayName("Assert address connection")
     @Test

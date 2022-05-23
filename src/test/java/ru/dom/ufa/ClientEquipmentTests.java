@@ -1,6 +1,7 @@
 package ru.dom.ufa;
 
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.dom.ufa.pages.EquipmentPages;
@@ -8,7 +9,7 @@ import static io.qameta.allure.Allure.step;
 
 public class ClientEquipmentTests extends TestBase {
     EquipmentPages EquipmentPages = new EquipmentPages();
-
+    @Disabled
     @Description("Проверка возможности заказа роутера TP-Link Archer EC220_G5 ERT")
     @DisplayName("Assert EC220_G5 item to buy")
     @Test
@@ -27,6 +28,7 @@ public class ClientEquipmentTests extends TestBase {
 
         });
     }
+    @Disabled
     @Description("Проверка возможности заказа роутера D-Link DIR-2150")
     @DisplayName("Assert DIR-2150 item to buy")
     @Test

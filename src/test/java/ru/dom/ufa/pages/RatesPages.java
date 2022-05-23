@@ -29,7 +29,7 @@ public class RatesPages {
 
     //actions
     public RatesPages openPage() {
-        open("baseURL");
+        open("");
         return this;
     }
 

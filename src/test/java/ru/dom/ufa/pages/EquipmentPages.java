@@ -35,7 +35,7 @@ public class EquipmentPages {
 
 
     public EquipmentPages openPage() {
-        open("baseUrl");
+        open("baseURL");
         return this;
     }
 

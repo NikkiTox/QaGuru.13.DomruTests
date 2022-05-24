@@ -1,6 +1,7 @@
 package helpers;
 
 import com.codeborne.selenide.Configuration;
+import org.aeonbits.owner.Config;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.opera.OperaOptions;

@@ -35,7 +35,7 @@ public class EquipmentPages {
 
 
     public EquipmentPages openPage() {
-        open("");
+        open(Configuration.baseUrl);
         return this;
     }
 
@@ -78,7 +78,7 @@ public class EquipmentPages {
         return this;
     }
     public EquipmentPages iotOrderNumber(){
-        iotInputNumber.setValue("89878888888");
+        iotInputNumber.setValue(clientNumber);
         return this;
     }
     public EquipmentPages iotAssertion(){

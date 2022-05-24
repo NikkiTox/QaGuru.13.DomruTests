@@ -6,7 +6,6 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
@@ -29,7 +28,7 @@ public class RatesPages {
 
     //actions
     public RatesPages openPage() {
-        open("");
+        open(Configuration.baseUrl);
         return this;
     }
 

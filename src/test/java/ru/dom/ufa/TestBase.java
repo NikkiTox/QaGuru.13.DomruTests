@@ -13,7 +13,7 @@ public class TestBase {
 
     @BeforeAll
     static void setup() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        SelenideLogger.addListener("Allure", new AllureSelenide());
         DriverConfig.configure();
     }
 

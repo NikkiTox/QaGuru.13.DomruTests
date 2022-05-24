@@ -2,7 +2,7 @@ package ru.dom.ufa.config;
 
 import org.aeonbits.owner.Config;
 
-@Config.Sources("classpath:${type}.properties")
+@Config.Sources("classpath:local.properties")
 public interface WebDriverConfig extends Config {
 
     @Key("baseURL")

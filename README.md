@@ -43,7 +43,7 @@
 ## :hotsprings: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/Nikkitox-QAGuru-DomruTests/">Сборка в Jenkins</a>
 <p align="center">
-<img title="src/images/screenshots/jenkins-job.png" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\jenkins-job.png">
+<img title="src/images/screenshots/jenkins-job.png" src="src\images\screenshots\jenkins-job.png">
 </p>
 
 ### Параметры сборки в Jenkins:

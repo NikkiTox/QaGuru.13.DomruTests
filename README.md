@@ -71,38 +71,38 @@ test
 ## :hotsprings: Allure Report
 - ### Главный экран Allure
 <p align="center">
-<img title="Allure Overview Dashboard" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\main-page-allure-report.png">
+<img title="Allure Overview Dashboard" src="src\images\screenshots\main-page-allure-report.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\allure-report-tests.png">
+<img title="Allure Test Page" src="src\images\screenshots\allure-report-tests.png">
 </p>
 
 ## :hotsprings: Интеграция с Allure TestOps
 - ### Главный экран с запуском
 <p align="center">
-<img title="TestOps Launch Page" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\testops-main.png">
+<img title="TestOps Launch Page" src="src\images\screenshots\testops-main.png">
 </p>
 
 - ### Страница с тестами в TestOps
 <p align="center">
-<img title="TestOps tests page" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\testops-tests.png">
+<img title="TestOps tests page" src="src\images\screenshots\testops-tests.png">
 </p>
 
 ## :hotsprings: Интеграция с Jira
 - ### Страница с задачей в Jira
 <p align="center">
-<img title="Jira issue" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\jira.png">
+<img title="Jira issue" src="src\images\screenshots\jira.png">
 </p>
 
 ## :hotsprings: Отчет в Telegram
 <p align="center">
-<img title="Telegram notification message" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\telegram.png">
+<img title="Telegram notification message" src="src\images\screenshots\telegram.png">
 </p>
 
 ## :hotsprings: Примеры прохождения тестов
 - К каждому тесту в Allure Report прилагается видео. Пример ниже
 <p align="center">
-  <img title="Selenoid Video" src="G:\AQA\QaGuru.13.DomruTests\src\images\screenshots\selenoidvideo.gif">
+  <img title="Selenoid Video" src="src\images\screenshots\selenoidvideo.gif">
 </p>

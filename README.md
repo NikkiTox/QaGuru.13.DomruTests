@@ -1,18 +1,6 @@
 # Проект по автоматизации тестирования для сайта Dom.ru уфимского филиала
 ## <a target="_blank" href="https://www.ufa.dom.ru/">Веб сайт Dom.ru</a>
 
-## :hotsprings: Содержание:
-
-- <a href="#hotsprings-технологии-и-инструменты">Технологии и инструменты</a> +
-- <a href="#hotsprings-реализованные-проверки">Проверки</a> + 
-- <a href="#hotsprings-сборка-в-Jenkins">Сборка в Jenkins</a>
-- <a href="#shinto_shrine-запуск-из-терминала">Запуск из терминала</a>
-- <a href="#shinto_shrine-allure-отчет">Allure отчет</a>
-- <a href="#shinto_shrine-интеграция-с-allure-testops">Интеграция с Allure TestOps</a>
-- <a href="#shinto_shrine-интеграция-с-jira">Интеграция с Jira</a>
-- <a href="#shinto_shrine-отчет-в-telegram">Отчет в Telegram</a>
-- <a href="#shinto_shrine-видео-примеры-прохождения-тестов">Видео примеры прохождения тестов</a>
-
 ## :hotsprings: Технологии и инструменты
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg">

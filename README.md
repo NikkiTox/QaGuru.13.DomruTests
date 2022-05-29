@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования для сайта Dom.ru уфимского филиала
-## <a target="_blank" href="[https://www.ufa.dom.ru/](https://ufa.dom.ru/)">Веб сайт Dom.ru</a>
+## <a target="_blank" href="https://ufa.dom.ru/">Веб сайт Dom.ru</a>
 
 ## :hotsprings: Технологии и инструменты
 <p align="center">

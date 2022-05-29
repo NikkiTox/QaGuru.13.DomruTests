@@ -6,6 +6,7 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 
+import static com.codeborne.selenide.Condition.attribute;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
@@ -24,8 +25,8 @@ public class RatesPages {
             buildField = $(".cTqNtX [type='text']"),
             flatField = $("name='flat'"),
             confirmAddressButton = $("type='accent'"),
-            assertAddressField = $("class='sc-193e5f56-8 hyAlhJ'");
-
+            assertAddressField = $("class='sc-193e5f56-8 hyAlhJ'"),
+            assertTitleText = $("title");
     //actions
     public RatesPages openPage() {
         open(Configuration.baseUrl);
@@ -37,7 +38,7 @@ public class RatesPages {
         return this;
     }
 
-    public RatesPages assertTitle() {
+    public RatesPages assertText() {
         ratesTitle.shouldHave(Condition.text("Выберите интернет и цифровое ТВ в Уфе"));
         return this;
     }
@@ -53,6 +54,10 @@ public class RatesPages {
     }
     public RatesPages assertAddress(){
         assertAddressField.shouldHave(Condition.text("Услуги можно подключить"));
+        return this;
+    }
+    public RatesPages assertTitle(){
+        assertTitleText.shouldHave(attribute("text", "Провайдер интернета Дом.ру в Уфе"));
         return this;
     }
 }

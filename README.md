@@ -59,7 +59,7 @@ test
 ## :hotsprings: Allure Report
 - ### Главный экран Allure
 <p align="center">
-<img title="Allure Overview Dashboard" src="src\images\screenshots\main-page-allure-report.png">
+<img title="Allure Overview Dashboard" src="images\screenshots\main-page-allure-report.png">
 </p>
 
 - ### Страница с проведенными тестами

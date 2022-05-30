@@ -31,7 +31,7 @@
 ## :hotsprings: Сборка в Jenkins
 ### <a target="_blank" href="https://jenkins.autotests.cloud/job/Nikkitox-QAGuru-DomruTests/">Сборка в Jenkins</a>
 <p align="center">
-<img title="src/images/screenshots/jenkins-job.png" src="src\images\screenshots\jenkins-job.png">
+<img title="images/screenshots/jenkins-job.png" src="images\screenshots\jenkins-job.png">
 </p>
 
 ### Параметры сборки в Jenkins:
@@ -64,33 +64,33 @@ test
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="src\images\screenshots\allure-report-tests.png">
+<img title="Allure Test Page" src="images\screenshots\allure-report-tests.png">
 </p>
 
 ## :hotsprings: Интеграция с Allure TestOps
 - ### Главный экран с запуском
 <p align="center">
-<img title="TestOps Launch Page" src="src\images\screenshots\testops-main.png">
+<img title="TestOps Launch Page" src="images\screenshots\testops-main.png">
 </p>
 
 - ### Страница с тестами в TestOps
 <p align="center">
-<img title="TestOps tests page" src="src\images\screenshots\testops-tests.png">
+<img title="TestOps tests page" src="images\screenshots\testops-tests.png">
 </p>
 
 ## :hotsprings: Интеграция с Jira
 - ### Страница с задачей в Jira
 <p align="center">
-<img title="Jira issue" src="src\images\screenshots\jira.png">
+<img title="Jira issue" src="images\screenshots\jira.png">
 </p>
 
 ## :hotsprings: Отчет в Telegram
 <p align="center">
-<img title="Telegram notification message" src="src\images\screenshots\telegram.png">
+<img title="Telegram notification message" src="images\screenshots\telegram.png">
 </p>
 
 ## :hotsprings: Примеры прохождения тестов
 - К каждому тесту в Allure Report прилагается видео. Пример ниже
 <p align="center">
-  <img title="Selenoid Video" src="src\images\screenshots\selenoidvideo.gif">
+  <img title="Selenoid Video" src="images\screenshots\selenoidvideo.gif">
 </p>

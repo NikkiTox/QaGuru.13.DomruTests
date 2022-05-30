@@ -1,4 +1,4 @@
-package helpers;
+package ru.dom.ufa.helpers;
 
 
 import com.codeborne.selenide.Selenide;

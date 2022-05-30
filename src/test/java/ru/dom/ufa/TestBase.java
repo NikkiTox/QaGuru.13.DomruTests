@@ -4,8 +4,8 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import helpers.AllureAttachments;
-import helpers.DriverConfig;
+import ru.dom.ufa.helpers.AllureAttachments;
+import ru.dom.ufa.helpers.DriverConfig;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 

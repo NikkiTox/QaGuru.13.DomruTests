@@ -3,7 +3,7 @@
 
 ## :hotsprings: Технологии и инструменты
 <p align="center">
-<img width="6%" title="IntelliJ IDEA" src="https://starchenkov.pro/qa-guru/img/skills/Intelij_IDEA.svg">
+<img width="6%" title="IntelliJ IDEA" src="images/icons/Intelij_IDEA.svg">
 <img width="6%" title="Java" src="https://starchenkov.pro/qa-guru/img/skills/Java.svg">
 <img width="6%" title="Selenide" src="https://starchenkov.pro/qa-guru/img/skills/Selenide.svg">
 <img width="6%" title="Selenoid" src="https://starchenkov.pro/qa-guru/img/skills/Selenoid.svg">

@@ -1,4 +1,5 @@
 package ru.dom.ufa.config;
+
 import org.aeonbits.owner.ConfigFactory;
 
 public class Project {

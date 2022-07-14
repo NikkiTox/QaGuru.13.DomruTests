@@ -1,63 +1,48 @@
 package ru.dom.ufa;
 
-import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.dom.ufa.pages.RatesPages;
 
 import static io.qameta.allure.Allure.step;
 
 public class ClientRatesTests extends TestBase {
-    RatesPages RatesPages = new RatesPages();
-    @Description("Проверка заголовка")
-    @DisplayName("Assert title")
-    @Test
-    void assertTitleTest() {
 
+    @Test
+    @DisplayName("Assert title")
+    void assertTitleTest() {
         step("Открыть сайт Дом.ру", () -> {
-            RatesPages.openPage();
+            ratesPages.openPage();
         });
         step("Проверить заголовок страницы", () -> {
-            RatesPages.assertTitle();
+            ratesPages.assertTitle();
         });
-
     }
 
-    @Description("Проверка доступных пакетов")
-    @DisplayName("Assert bundle rates")
     @Test
+    @DisplayName("Assert bundle rates")
     void assertBundleTest() {
-
         step("Открыть сайт Дом.ру", () -> {
-            RatesPages.openPage();
+            ratesPages.openPage();
         });
         step("Нажать на кнопку с пакетными предложениями", () -> {
-            RatesPages.ratesArchives();
+            ratesPages.ratesArchives();
         });
         step("Проверить, что есть тарифы для подключения в городе Уфа", () -> {
-            RatesPages.assertText();
+            ratesPages.assertText();
         });
     }
 
-    @Description("Проверка адреса подключения")
-    @DisplayName("Assert address connection")
     @Test
+    @DisplayName("Assert address connection")
     void assertAddressTest() {
-
         step("Открыть сайт Дом.ру", () -> {
-            RatesPages.openPage();
+            ratesPages.openPage();
         });
         step("Выбрать адрес подключения", () -> {
-            RatesPages.valueAddress();
+            ratesPages.valueAddress();
         });
         step("Проверить, что есть тарифы для подключения в городе Уфа", () -> {
-            RatesPages.assertAddress();
+            ratesPages.assertAddress();
         });
     }
 }
-
-
-
-
-
-

@@ -13,13 +13,13 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class RatesPages {
 
-    //locator
-    private final SelenideElement
 
+    private final SelenideElement
+            //locator
             ratesArchive = $(By.linkText("ТВ + Интернет")),
             ratesTitle = $("[class='sc-6dc94116-2 kFdYWj']"),
             cityButton = $(".ibkljD"),
-            stateButton = $(".Col-qyrm3i-0:nth-child(1) > .sc-dd0fac8d-2:nth-child(3) > .sc-dd0fac8d-4:nth-child(2) > .sc-dd0fac8d-5"),
+            stateButton = $(".sc-dd0fac8d-5"),
             cityChoose = $("*[data-test='city-item']"),
             streetField = $(".iLlchu [type='text']"),
             buildField = $(".cTqNtX [type='text']"),
@@ -27,6 +27,7 @@ public class RatesPages {
             confirmAddressButton = $("type='accent'"),
             assertAddressField = $("class='sc-193e5f56-8 hyAlhJ'"),
             assertTitleText = $("title");
+
     //actions
     public RatesPages openPage() {
         open(Configuration.baseUrl);
@@ -42,7 +43,8 @@ public class RatesPages {
         ratesTitle.shouldHave(Condition.text("Выберите интернет и цифровое ТВ в Уфе"));
         return this;
     }
-    public RatesPages valueAddress (){
+
+    public RatesPages valueAddress() {
         cityButton.click();
         stateButton.click();
         cityChoose.click();
@@ -52,11 +54,13 @@ public class RatesPages {
         confirmAddressButton.click();
         return this;
     }
-    public RatesPages assertAddress(){
+
+    public RatesPages assertAddress() {
         assertAddressField.shouldHave(Condition.text("Услуги можно подключить"));
         return this;
     }
-    public RatesPages assertTitle(){
+
+    public RatesPages assertTitle() {
         assertTitleText.shouldHave(attribute("text", "Провайдер интернета Дом.ру в Уфе"));
         return this;
     }
